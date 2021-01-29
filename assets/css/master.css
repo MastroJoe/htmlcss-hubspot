@@ -96,3 +96,25 @@
 header a {
   text-decoration: none;
 }
+
+/* nav */
+
+nav {
+  height: 5rem;
+  margin-top: 5rem;
+  line-height: 5rem;
+}
+
+.bg_white {
+  background-color: #ffffff;
+}
+
+nav ul li {
+  display: inline-block;
+  padding-left: 1rem;
+}
+
+nav ul li:after {
+  content: "˅";
+  padding-left: .5rem;
+}
