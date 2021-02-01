@@ -100,9 +100,9 @@ header a {
 /* nav */
 
 nav {
-  height: 5rem;
-  margin-top: 5rem;
-  line-height: 5rem;
+  height: 80px;
+  margin-top: 75px;
+  line-height: 75px;
 }
 
 .bg_white {
@@ -111,10 +111,64 @@ nav {
 
 nav ul li {
   display: inline-block;
-  padding-left: 1rem;
+  padding-left: 15px;
 }
 
 nav ul li:after {
   content: "˅";
-  padding-left: .5rem;
+  padding-left: 10px;
+}
+
+/* jumbo */
+
+.jumbo {
+  background-color: #FFF2EE;
+  background-image: url(../img/jumbotron.png);
+  height: 600px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  position: relative;
+}
+
+.title {
+  width: 50%;
+}
+
+#txt_title {
+  font-size: 30px;
+}
+
+.marg_top_30 {
+  margin-top: 30px;
+}
+
+.disp_block {
+  display: block;
+}
+
+.fit_content {
+  width: fit-content;
+}
+
+.pad_15 {
+  padding: 15px;
+}
+
+.marg_top_15 {
+  margin-top: 15px;
+}
+
+.txt_size_12 {
+  font-size: 12px;
+}
+
+.line {
+  height: 100px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  background-color: #AFEBE4;
+  border-top: 2px solid #34485C;
+  border-bottom: 2px solid #34485C;
 }
