@@ -33,8 +33,6 @@
   font-weight: bold;
 }
 
-
-
 /* header */
 
 .bg_gray {
@@ -171,4 +169,42 @@ nav ul li:after {
   background-color: #AFEBE4;
   border-top: 2px solid #34485C;
   border-bottom: 2px solid #34485C;
+}
+
+ /* main */
+
+.card ul li {
+  display: inline-block;
+  list-style-type: none;
+  margin-right: 15px;
+ }
+
+ .card ul li:before {
+  content: "✓";
+  padding: 0 4px;
+  background-color: #FE775A;
+  color: #FFFFFF;
+  border-radius: 50%;
+  margin-right: 7px;
+  font-size: 9px;
+}
+
+.cube {
+ width: 35%;
+}
+
+.align_center {
+  margin: 0 auto;
+}
+
+.col_33 {
+  width: calc(100% / 3);
+}
+
+.col_66 {
+  width: calc((100%/3)*2);
+}
+
+div [class^="col_"] img {
+ height: 6rem;
 }
