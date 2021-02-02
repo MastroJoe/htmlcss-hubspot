@@ -172,6 +172,7 @@ nav ul li:after {
 }
 
  /* main */
+/* cards */
 
 .card ul li {
   display: inline-block;
@@ -207,4 +208,29 @@ nav ul li:after {
 
 div [class^="col_"] img {
  height: 6rem;
+}
+
+.pad_top_45 {
+    padding-top: 45px;
+}
+
+.pad_top_bott_45 {
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
+.txt_align {
+  text-align: center;
+}
+
+.marg_top_45 {
+  margin-top: 45px;
+}
+
+.txt {
+  text-decoration: none;
+}
+
+.pad_right {
+  padding-right: 80px;
 }
