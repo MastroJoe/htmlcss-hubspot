@@ -207,16 +207,16 @@ nav ul li:after {
 }
 
 div [class^="col_"] img {
- height: 6rem;
+ height: 100px;
 }
 
 .pad_top_45 {
-    padding-top: 45px;
+  padding-top: 45px;
 }
 
 .pad_top_bott_45 {
-    padding-top: 45px;
-    padding-bottom: 45px;
+  padding-top: 45px;
+  padding-bottom: 45px;
 }
 
 .txt_align {
@@ -233,4 +233,40 @@ div [class^="col_"] img {
 
 .pad_right {
   padding-right: 80px;
+}
+
+/* 3 cards */
+
+.cards .col_33 hr {
+  margin: 0 auto;
+}
+
+.cards .col_33 {
+  width: calc((100% / 3) - 30px);
+  min-height: 50px;
+  background-color: white;
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+.cards .col_33 img {
+  height: 100px;
+  margin: 10px auto;
+  display: block;
+}
+
+.pad_left_right {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.pad_bott_45 {
+  padding-bottom: 45px;
+}
+
+.space ul li {
+  list-style-type: none;
+  text-align: left;
+  margin-right: 15px;
+  display: block;
 }
