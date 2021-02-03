@@ -284,14 +284,15 @@ div [class^="col_"] img {
 
 .grid p {
   font-size: 16px;
+  font-weight: bold;
 }
 
 .col_25 {
   width: calc(100% / 4);
   min-height: 150px;
+  display: inline-block;
   padding-bottom: 15px;
   padding-top: 15px
-  display: inline-block;
 }
 
 .grid .col_25 > * {
@@ -301,6 +302,26 @@ div [class^="col_"] img {
 
 .grid .col_25 img {
   height: 30px;
+}
+
+.grid .col_25:not(:first-child) {
+  border-left: 1.5px solid white;
+}
+
+.grid .row_g:not(:last-child) {
+  border-bottom: 1.5px solid white;
+}
+
+.grid .col_25 p:nth-child(2) {
+  margin-top: 15px;
+  font-size: 30px;
+  font-weight: bold;
+  font-style: bold;
+}
+
+.grid .col_25 p:nth-child(3) {
+  margin-top: 15px;
+  font-size: 10px;
 }
 
 /* partners */
