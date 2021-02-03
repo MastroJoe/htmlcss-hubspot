@@ -302,3 +302,9 @@ div [class^="col_"] img {
 .grid .col_25 img {
   height: 30px;
 }
+
+/* partners */
+
+.txt_size_30 {
+  font-size: 30px;
+}
