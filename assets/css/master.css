@@ -400,3 +400,23 @@ footer ul {
   padding:4px;
   font-size: 14px;
 }
+
+.col_50 {
+  width: calc(100% / 2);
+}
+
+.logo_foot {
+  width: 80px;
+  margin: 0;
+  padding: 0;
+}
+
+.privacy ul li {
+  display: inline-block;
+  padding-left: 15px;
+  padding-top: 30px;
+}
+
+.txt_right {
+  text-align: right;
+}
