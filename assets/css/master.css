@@ -288,9 +288,9 @@ div [class^="col_"] img {
 }
 
 .col_25 {
+  display: inline-block;
   width: calc(100% / 4);
   min-height: 150px;
-  display: inline-block;
   padding-bottom: 15px;
   padding-top: 15px
 }
@@ -333,6 +333,10 @@ div [class^="col_"] img {
   margin-top: 20px;
 }
 
+.pad_left_80 {
+  padding-left: 80px;
+}
+
 .txt_size_30 {
   font-size: 30px;
 }
@@ -354,4 +358,13 @@ div [class^="col_"] img {
   position: absolute;
   right: 0;
   top: -15px;
+}
+
+
+
+
+/* footer */
+
+.bg_darkg {
+  color: #32495B;
 }
