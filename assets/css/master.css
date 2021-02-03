@@ -305,6 +305,30 @@ div [class^="col_"] img {
 
 /* partners */
 
+.partner .col_25 img {
+  height: 30px;
+  margin-top: 20px;
+}
+
 .txt_size_30 {
   font-size: 30px;
+}
+
+.txt_size_10 {
+  font-size: 10px;
+}
+
+.pad_150 {
+  padding: 15px 0;
+}
+
+.rel {
+  position: relative;
+}
+
+.partner .woman {
+  height: 290px;
+  position: absolute;
+  right: 0;
+  top: -15px;
 }
